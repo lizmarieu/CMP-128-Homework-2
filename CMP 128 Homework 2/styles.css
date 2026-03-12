@@ -1,0 +1,79 @@
+#nameText{
+    text-align: center; /* this centers the name at the top of the page */
+}
+
+.layout{
+    display: block; /* this makes the layout of the resume a block element so its more structured*/
+}
+
+.circleImage{
+    border-radius: 50%; /* here is where i created my circle image by making the border radius 50% and made sure it was a square*/
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto; /* this centered my image */
+    margin-right: auto;
+}
+
+#studentText{
+    text-align: center;
+}
+
+.resumeTable1, .resumeTable2{
+    border-collapse: collapse; /* i created two tables for better organization, one being the contact and professional summary,
+                                the other is the rest of the cells */
+    width: 100%;
+}
+
+.resumeTable1{
+    padding-top: 60px;
+    border-top: 6px solid rgb(60, 7, 7);
+}
+
+th, td {
+        padding: 10px;
+    }
+
+
+th, td {
+    text-align: left;
+}
+
+#boldCell{
+    font-weight: bold;  
+    color:rgb(45, 45, 160);
+}
+
+.blueContactList {
+    background-color: rgb(83, 83, 213); /* i gave the cells different colors to imitate the resume example */
+    width:30%
+}
+
+.purpleSummaryList, .purpleSkillsList {
+    background-color: rgb(177, 177, 255);
+    width:30%;
+    
+}
+
+#titleText{
+    font-style:italic;
+}
+
+#fordhamText{
+    font-weight: bold;
+}
+
+#diplomaText{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.experienceCell{ /* by playing around with the width of certain cells, i got the colors to meet in the middle so it looked cleaner*/ 
+    width:30%;
+}
+
+.siteFooter{
+    border-top: 5px solid;
+    text-align: center;
+    padding: 10px;
+}
